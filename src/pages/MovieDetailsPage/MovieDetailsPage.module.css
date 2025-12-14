@@ -1,0 +1,24 @@
+.movieDetailsContainer {
+  padding: 15px;
+}
+
+.navLinksWrapper {
+  display: flex;
+  gap: 20px;
+  margin: 20px 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.navLinksWrapper :global(a) {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.active {
+  color: rgb(165, 14, 14);
+}
+
+.navLinksWrapper :global(a:hover) {
+  color: rgb(165, 14, 14);
+}

@@ -1,0 +1,10 @@
+.noFilms {
+  font-size: 36px;
+  text-align: center;
+  color: whitesmoke;
+  margin-top: 40px;
+}
+
+.filmName {
+  color: tomato;
+}

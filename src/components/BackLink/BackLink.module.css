@@ -1,0 +1,13 @@
+.backLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: whitesmoke;
+  text-decoration: none;
+  margin-bottom: 20px;
+  transition: color 0.3s;
+}
+
+.backLink:hover {
+  color: rgb(165, 14, 14);
+}

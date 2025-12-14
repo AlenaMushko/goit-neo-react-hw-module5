@@ -1,0 +1,33 @@
+.reviewsList {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.reviewItem {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #3a3a3a;
+  border-radius: 8px;
+}
+
+.reviewAuthor {
+  color: rgb(165, 14, 14);
+  font-weight: bold;
+}
+
+.reviewItem :global(h2) {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.reviewItem :global(h3) {
+  margin: 15px 0 10px 0;
+}
+
+.reviewItem :global(p) {
+  line-height: 1.6;
+  color: whitesmoke;
+}
