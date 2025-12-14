@@ -8,15 +8,15 @@ const SearchFilmsForm = ({ onSubmit }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (searchValue === "") {
+    const trimmedValue = searchValue.trim();
+    if (trimmedValue === "") {
       return;
     }
-    onSubmit(searchValue);
+    onSubmit(trimmedValue);
   };
 
   const handleNameChange = (e) => {
-    let searchValueFilms = e.currentTarget.value.trim();
-    setSearchValue(searchValueFilms.toLowerCase());
+    setSearchValue(e.currentTarget.value);
   };
 
   return (

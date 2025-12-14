@@ -9,13 +9,17 @@ const Navigation = () => {
       <NavLink
         to={ROUTES.HOME}
         end
-        className={({ isActive }) => (isActive ? styles.active : "")}
+        className={({ isActive }) =>
+          isActive ? `${styles.link} ${styles.active}` : styles.link
+        }
       >
         Home
       </NavLink>
       <NavLink
         to={ROUTES.MOVIES}
-        className={({ isActive }) => (isActive ? styles.active : "")}
+        className={({ isActive }) =>
+          isActive ? `${styles.link} ${styles.active}` : styles.link
+        }
       >
         Movies
       </NavLink>
